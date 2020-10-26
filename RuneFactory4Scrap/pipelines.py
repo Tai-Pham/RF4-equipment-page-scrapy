@@ -28,7 +28,7 @@ class Runefactory4ScrapPipeline(object):
 			host = 'localhost',
 			user = 'root',
 			passwd = '',
-			database = '',
+			database = 'RuneFactory4Equipments',
 		)
 		self.curr = self.conn.cursor()
 	
